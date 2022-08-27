@@ -1,6 +1,9 @@
 name: UI Tests
-
-on: [push, pull_request]
+on: 
+  schedule:
+    - cron: '0 0 * * *'
+  push:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -78,35 +81,3 @@ jobs:
         run: |
           cd ui-tests
           yarn run test --browser ${{ matrix.browser }}
-
-      - name: Upload Playwright Test assets
-        if: always()
-        uses: actions/upload-artifact@v2
-        with:
-          name: jupyterlite-${{ matrix.browser }}-test-assets
-          path: |
-            ui-tests/test-results
-
-      - name: Upload Playwright Test report
-        if: always()
-        uses: actions/upload-artifact@v2
-        with:
-          name: jupyterlite-${{ matrix.browser }}-test-report
-          path: |
-            ui-tests/playwright-report
-
-      - name: Update snapshots
-        if: failure()
-        run: |
-          cd ui-tests
-          # remove previous snapshots from other browser
-          yarn rimraf "test/**/*-snapshots/*.png"
-          # generate new snapshots
-          yarn run test:update --browser ${{ matrix.browser }}
-
-      - name: Upload updated snapshots
-        if: failure()
-        uses: actions/upload-artifact@v2
-        with:
-          name: jupyterlite-${{ matrix.browser }}-updated-snapshots
-          path: ui-tests/test
