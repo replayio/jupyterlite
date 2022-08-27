@@ -1,4 +1,5 @@
 const baseConfig = require('@jupyterlab/galata/lib/playwright-config');
+const { devices: replayDevices } = require('@replayio/playwright');
 
 module.exports = {
   ...baseConfig,
@@ -11,5 +12,15 @@ module.exports = {
     video: 'retain-on-failure',
     acceptDownloads: true,
   },
+  projects: [
+    {
+      name: 'replay-firefox',
+      use: { ...replayDevices['Replay Firefox'] },
+    },
+    {
+      name: 'replay-chromium',
+      use: { ...replayDevices['Replay Chromium'] },
+    },
+  ],
   retries: 1,
 };

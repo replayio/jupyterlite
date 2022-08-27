@@ -10,7 +10,7 @@
     "deduplicate": "yarn-deduplicate -s fewer --fail",
     "start": "cd ui-tests-app && python -m http.server -b 127.0.0.1",
     "start:detached": "yarn run start&",
-    "test": "playwright test",
+    "test": "npx playwright test --project replay-chromium --reporter=@replayio/playwright/reporter,line",
     "test:debug": "PWDEBUG=1 playwright test",
     "test:report": "http-server ./playwright-report -a localhost -o",
     "test:update": "playwright test --update-snapshots"

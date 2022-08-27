@@ -2723,7 +2723,7 @@
     vega-lite "^5.1.0"
 
 "@jupyterlite/application-extension@file:packages/application-extension":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/application" "~3.4.5"
     "@jupyterlab/apputils" "~3.4.5"
@@ -2735,13 +2735,13 @@
     "@jupyterlab/services" "~6.4.5"
     "@jupyterlab/translation" "~3.4.5"
     "@jupyterlab/ui-components" "~3.4.5"
-    "@jupyterlite/ui-components" "^0.1.0-beta.11"
+    "@jupyterlite/ui-components" "^0.1.0-beta.12"
     "@lumino/algorithm" "^1.9.1"
     "@lumino/coreutils" "^1.12.0"
     "@lumino/widgets" "^1.33.0"
 
 "@jupyterlite/application@file:packages/application":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/application" "~3.4.5"
     "@jupyterlab/coreutils" "~5.4.5"
@@ -2752,37 +2752,37 @@
     "@lumino/widgets" "^1.33.0"
 
 "@jupyterlite/contents@file:packages/contents":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/nbformat" "~3.4.5"
     "@jupyterlab/services" "~6.4.5"
-    "@jupyterlite/localforage" "^0.1.0-beta.11"
+    "@jupyterlite/localforage" "^0.1.0-beta.12"
     "@lumino/coreutils" "^1.12.0"
     localforage "^1.9.0"
     mime "^3.0.0"
 
 "@jupyterlite/iframe-extension@file:packages/iframe-extension":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/rendermime-interfaces" "~3.4.5"
     "@lumino/coreutils" "^1.12.0"
     "@lumino/widgets" "^1.33.0"
 
 "@jupyterlite/javascript-kernel-extension@file:packages/javascript-kernel-extension":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/coreutils" "~5.4.5"
-    "@jupyterlite/javascript-kernel" "^0.1.0-beta.11"
-    "@jupyterlite/kernel" "^0.1.0-beta.11"
-    "@jupyterlite/server" "^0.1.0-beta.11"
+    "@jupyterlite/javascript-kernel" "^0.1.0-beta.12"
+    "@jupyterlite/kernel" "^0.1.0-beta.12"
+    "@jupyterlite/server" "^0.1.0-beta.12"
 
 "@jupyterlite/javascript-kernel@file:packages/javascript-kernel":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
-    "@jupyterlite/kernel" "^0.1.0-beta.11"
+    "@jupyterlite/kernel" "^0.1.0-beta.12"
 
 "@jupyterlite/kernel@file:packages/kernel":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/coreutils" "~5.4.5"
     "@jupyterlab/observables" "~4.4.4"
@@ -2795,12 +2795,12 @@
     mock-socket "^9.1.0"
 
 "@jupyterlite/licenses@file:packages/licenses":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/coreutils" "~5.4.5"
 
 "@jupyterlite/localforage@file:packages/localforage":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/coreutils" "^5.4.5"
     "@lumino/coreutils" "^1.5.3"
@@ -2808,82 +2808,82 @@
     localforage-memoryStorageDriver "^0.9.2"
 
 "@jupyterlite/pyolite-kernel-extension@file:packages/pyolite-kernel-extension":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/coreutils" "~5.4.5"
-    "@jupyterlite/kernel" "^0.1.0-beta.11"
-    "@jupyterlite/pyolite-kernel" "^0.1.0-beta.11"
-    "@jupyterlite/server" "^0.1.0-beta.11"
+    "@jupyterlite/kernel" "^0.1.0-beta.12"
+    "@jupyterlite/pyolite-kernel" "^0.1.0-beta.12"
+    "@jupyterlite/server" "^0.1.0-beta.12"
 
 "@jupyterlite/pyolite-kernel@file:packages/pyolite-kernel":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
-    "@jupyterlite/contents" "^0.1.0-beta.11"
-    "@jupyterlite/kernel" "^0.1.0-beta.11"
+    "@jupyterlite/contents" "^0.1.0-beta.12"
+    "@jupyterlite/kernel" "^0.1.0-beta.12"
     comlink "^4.3.1"
 
 "@jupyterlite/repl-extension@file:packages/repl-extension":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/application" "~3.4.5"
     "@jupyterlab/apputils" "~3.4.5"
     "@jupyterlab/console" "~3.4.5"
     "@jupyterlab/translation" "~3.4.5"
     "@jupyterlab/ui-components" "~3.4.5"
-    "@jupyterlite/application" "^0.1.0-beta.11"
-    "@jupyterlite/ui-components" "^0.1.0-beta.11"
+    "@jupyterlite/application" "^0.1.0-beta.12"
+    "@jupyterlite/ui-components" "^0.1.0-beta.12"
     "@lumino/widgets" "^1.33.0"
 
 "@jupyterlite/retro-application-extension@file:packages/retro-application-extension":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/application" "~3.4.5"
     "@jupyterlab/console" "~3.4.5"
     "@jupyterlab/coreutils" "~5.4.5"
     "@jupyterlab/docmanager" "~3.4.5"
     "@jupyterlab/services" "~6.4.5"
-    "@jupyterlite/ui-components" "^0.1.0-beta.11"
+    "@jupyterlite/ui-components" "^0.1.0-beta.12"
     "@retrolab/application" "^0.3.21"
 
 "@jupyterlite/server@file:packages/server-extension":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/coreutils" "~5.4.5"
-    "@jupyterlite/kernel" "^0.1.0-beta.11"
-    "@jupyterlite/licenses" "^0.1.0-beta.11"
-    "@jupyterlite/localforage" "^0.1.0-beta.11"
-    "@jupyterlite/server" "^0.1.0-beta.11"
-    "@jupyterlite/session" "^0.1.0-beta.11"
-    "@jupyterlite/settings" "^0.1.0-beta.11"
-    "@jupyterlite/translation" "^0.1.0-beta.11"
+    "@jupyterlite/kernel" "^0.1.0-beta.12"
+    "@jupyterlite/licenses" "^0.1.0-beta.12"
+    "@jupyterlite/localforage" "^0.1.0-beta.12"
+    "@jupyterlite/server" "^0.1.0-beta.12"
+    "@jupyterlite/session" "^0.1.0-beta.12"
+    "@jupyterlite/settings" "^0.1.0-beta.12"
+    "@jupyterlite/translation" "^0.1.0-beta.12"
 
 "@jupyterlite/session@file:packages/session":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/coreutils" "~5.4.5"
     "@jupyterlab/services" "~6.4.5"
-    "@jupyterlite/kernel" "^0.1.0-beta.11"
+    "@jupyterlite/kernel" "^0.1.0-beta.12"
     "@lumino/algorithm" "^1.9.1"
     "@lumino/coreutils" "^1.12.0"
 
 "@jupyterlite/settings@file:packages/settings":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/coreutils" "~5.4.5"
     "@jupyterlab/settingregistry" "~3.4.5"
-    "@jupyterlite/localforage" "^0.1.0-beta.11"
+    "@jupyterlite/localforage" "^0.1.0-beta.12"
     "@lumino/coreutils" "^1.12.0"
     json5 "^2.2.0"
     localforage "^1.9.0"
 
 "@jupyterlite/translation@file:packages/translation":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/coreutils" "~5.4.5"
     "@lumino/coreutils" "^1.12.0"
 
 "@jupyterlite/ui-components@file:packages/ui-components":
-  version "0.1.0-beta.11"
+  version "0.1.0-beta.12"
   dependencies:
     "@jupyterlab/ui-components" "^3.4.5"
 
@@ -3887,6 +3887,48 @@
   version "1.0.0-next.21"
   resolved "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
+
+"@replayio/playwright@^0.2.24":
+  version "0.2.24"
+  resolved "https://registry.npmjs.org/@replayio/playwright/-/playwright-0.2.24.tgz#927c0953b9a507b81e89b316287851ece5dbff6a"
+  integrity sha512-KaeJ6ak3AjamjP5XLrm+76AtieuhKq3o/tOJXOuwaO4Lpjy6qvE/ZqW9hqIr/NpwnawncYvHDejubbQ5THYIyA==
+  dependencies:
+    "@replayio/replay" "^0.9.4"
+    "@replayio/test-utils" "^0.1.0"
+    uuid "^8.3.2"
+
+"@replayio/replay@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.npmjs.org/@replayio/replay/-/replay-0.9.4.tgz#c6bf1910c92e121fe38c41a9435c7bd45d9673a2"
+  integrity sha512-wn9uBpW46zL3Qo7HJuTnIgKxXeqoqF7Cl41UFx820uR4drZtl5J/NRg8LjF/Y5u+IldBtz4P5Z1qPfyfwEewAw==
+  dependencies:
+    "@replayio/sourcemap-upload" "^1.0.3"
+    commander "^7.2.0"
+    is-uuid "^1.0.2"
+    jsonata "^1.8.6"
+    superstruct "^0.15.4"
+    text-table "^0.2.0"
+    ws "^7.5.0"
+
+"@replayio/sourcemap-upload@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/@replayio/sourcemap-upload/-/sourcemap-upload-1.0.3.tgz#e492f27e5d96aeb576057d6a05f948f3f977544a"
+  integrity sha512-k/po0EklaH3BxDnK8iZFn37y1aTiYpvD9CLPueIBCRsmiUxdMz3fh6EEGtUXuDcU5dCp7gQdacTXknRZq4dbNg==
+  dependencies:
+    commander "^7.2.0"
+    debug "^4.3.1"
+    glob "^7.1.6"
+    node-fetch "^2.6.1"
+    string.prototype.matchall "^4.0.5"
+
+"@replayio/test-utils@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/@replayio/test-utils/-/test-utils-0.1.0.tgz#1fb3555bfa24b7bcf439e30a53356517d1c34937"
+  integrity sha512-+T4xHVzuTGABpnoTz0/+6yIQfjZyXgxxI5T0HKqnRgxJTF8rjLBo5vYb0N8wcyv+k2m4FGWOQBtA9YXnZ8QXhQ==
+  dependencies:
+    "@replayio/replay" "^0.9.4"
+    node-fetch "^2.6.7"
+    uuid "^8.3.2"
 
 "@retrolab/application-extension@^0.3.21":
   version "0.3.21"
@@ -6214,7 +6256,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@4.3.4, debug@^4.1.0, debug@^4.1.1, debug@^4.2.0, debug@^4.3.2, debug@^4.3.3, debug@^4.3.4:
+debug@4, debug@4.3.4, debug@^4.1.0, debug@^4.1.1, debug@^4.2.0, debug@^4.3.1, debug@^4.3.2, debug@^4.3.3, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -8520,6 +8562,11 @@ is-unicode-supported@^0.1.0:
   resolved "https://registry.npmjs.org/is-unicode-supported/-/is-unicode-supported-0.1.0.tgz#3f26c76a809593b52bfa2ecb5710ed2779b522a7"
   integrity sha512-knxG2q4UC3u8stRGyAVJCOdxFmv5DZiRcdlIaAQXAbSfJya+OhopNotLQrstBhququ4ZpuKbDc/8S6mgXgPFPw==
 
+is-uuid@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/is-uuid/-/is-uuid-1.0.2.tgz#ad1898ddf154947c25c8e54966f48604e9caecc4"
+  integrity sha512-tCByphFcJgf2qmiMo5hMCgNAquNSagOetVetDvBXswGkNfoyEMvGH1yDlF8cbZbKnbVBr4Y5/rlpMz9umxyBkQ==
+
 is-weakref@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/is-weakref/-/is-weakref-1.0.2.tgz#9529f383a9338205e89765e0392efc2f100f06f2"
@@ -9177,6 +9224,11 @@ json5@^1.0.1:
   integrity sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==
   dependencies:
     minimist "^1.2.0"
+
+jsonata@^1.8.6:
+  version "1.8.6"
+  resolved "https://registry.npmjs.org/jsonata/-/jsonata-1.8.6.tgz#e5f0e6ace870a34bac881a182ca2b31227122791"
+  integrity sha512-ZH2TPYdNP2JecOl/HvrH47Xc+9imibEMQ4YqKy/F/FrM+2a6vfbGxeCX23dB9Fr6uvGwv+ghf1KxWB3iZk09wA==
 
 jsonc-parser@^3.0.0:
   version "3.1.0"
@@ -12649,7 +12701,7 @@ string-width@^1.0.1:
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.1"
 
-string.prototype.matchall@^4.0.7:
+string.prototype.matchall@^4.0.5, string.prototype.matchall@^4.0.7:
   version "4.0.7"
   resolved "https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.7.tgz#8e6ecb0d8a1fb1fda470d81acecb2dba057a481d"
   integrity sha512-f48okCX7JiwVi1NXCVWcFnZgADDC/n2vePlQ/KUCNqCikLLilQvwjMO8+BHVKvgzH0JB0J9LEPgxOGT02RoETg==
@@ -12785,6 +12837,11 @@ style-loader@~2.0.0:
   dependencies:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
+
+superstruct@^0.15.4:
+  version "0.15.5"
+  resolved "https://registry.npmjs.org/superstruct/-/superstruct-0.15.5.tgz#0f0a8d3ce31313f0d84c6096cd4fa1bfdedc9dab"
+  integrity sha512-4AOeU+P5UuE/4nOUkmcQdW5y7i9ndt1cQd/3iUe+LTz3RxESf/W/5lg4B74HbDMMv8PHnPnGCQFH45kBcrQYoQ==
 
 supports-color@^5.3.0:
   version "5.5.0"
@@ -13498,7 +13555,7 @@ uuid@^3.3.2, uuid@^3.3.3:
   resolved "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
-uuid@^8.3.0:
+uuid@^8.3.0, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
@@ -14340,7 +14397,7 @@ ws@^6.2.1:
   dependencies:
     async-limiter "~1.0.0"
 
-ws@^7.3.1, ws@^7.4.6:
+ws@^7.3.1, ws@^7.4.6, ws@^7.5.0:
   version "7.5.9"
   resolved "https://registry.npmjs.org/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
   integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
